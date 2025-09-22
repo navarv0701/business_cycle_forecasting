@@ -1,0 +1,4 @@
+blpapi
+pandas
+numpy
+tqdm

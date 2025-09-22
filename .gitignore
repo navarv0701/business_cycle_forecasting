@@ -1,0 +1,45 @@
+# Data files
+data/bloomberg_cache/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+bloomberg_data_export/
+
+# Outputs
+outputs/
+*.png
+*.html
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Credentials
+config/credentials.yaml
+config/bloomberg_config.yaml
